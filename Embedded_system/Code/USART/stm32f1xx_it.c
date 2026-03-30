@@ -1,3 +1,5 @@
+//不定⻓度数据接收最终解决方案
+
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
 void USER_UART_IRQHandler(UART_HandleTypeDef *huart);
