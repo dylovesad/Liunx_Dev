@@ -38,3 +38,6 @@ BaseType_t osThreadResumeAll(void);
 Resume ： 恢复，继续
 让挂起的任务重新进⼊就绪状态，恢复的任务会保留挂起前的状态信息，在恢复的时候根据挂起时的状态继续运⾏。如果被恢复任务在所
 有就绪态任务中，处于最⾼优先级列表的第⼀位，那么系统将进⾏任务上下⽂的切换。可⽤在中断服务程序中。
+
+osThreadState osThreadGetState(osThreadId thread_id);
+获取任务当前状态。
