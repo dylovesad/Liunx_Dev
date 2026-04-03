@@ -5,4 +5,5 @@ linux - ubuntu
 # pwd
 # mkdir //创建文件夹
 # touch //创建文件
-# cat && more //查看文件
+# cat && more(翻页) //查看文件
+#
