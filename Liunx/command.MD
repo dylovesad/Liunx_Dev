@@ -33,4 +33,9 @@ linux - ubuntu
 
 shell 脚本文件
 
+/***环境变量***/
+变量 = '值'
+export ： 变量 = '值'
+
+
 
