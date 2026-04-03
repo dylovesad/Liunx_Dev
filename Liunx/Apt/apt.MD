@@ -14,6 +14,15 @@ sudo apt autoremove # 自动卸载系统不再需要的软件包
 #卸载火车软件sudo apt remove sl
 sudo apt remove snake4#卸载贪吃蛇游戏
 
+3.apt pplicy查看软件安装状态
+#policy策略，
+sudo apt policy<软件名称>
+sudo apt policy gcc
+#检查gcc 的安装状态
+sudo apt policy sl
+#检查s1软件安装状态
+sudo apt policy snake4#检查snake4 软件安装状态
+
 7.apt update 更新软件目录
 从服务器更新软件信息到本地，保持本地的软件信息和服务器一致。
 #更软软件源信息sudo apt update
