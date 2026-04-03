@@ -13,3 +13,8 @@ sudo apt autoremove # 自动卸载系统不再需要的软件包
 #例如
 #卸载火车软件sudo apt remove sl
 sudo apt remove snake4#卸载贪吃蛇游戏
+
+7.apt update 更新软件目录
+从服务器更新软件信息到本地，保持本地的软件信息和服务器一致。
+#更软软件源信息sudo apt update
+sudo apt list --upgradable#查看可升级的软件信息
