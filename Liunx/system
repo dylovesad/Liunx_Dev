@@ -1,0 +1,15 @@
+/          根目录
+/bin       基础命令
+/sbin      管理员命令
+/etc       配置文件
+/home      用户家目录
+/root      root家目录
+/var       日志、数据
+/tmp       临时文件
+/dev       设备文件
+/mnt       临时挂载点
+/media     可移动设备挂载
+/opt       第三方软件
+/usr       应用程序
+/proc      系统内核信息
+/sys       硬件信息
