@@ -13,4 +13,4 @@ linux - ubuntu
 # which //查找命令地址
 # find 首地址 -name "文件名"   //搜索文件
 # find 首地址 -size +/-n[单位大小] //按文件大小搜索   
-# grep 
+# grep //检索文件内容
