@@ -10,4 +10,6 @@ linux - ubuntu
 # cp [-r] 被复制 地址 //复制文件或文件夹
 # mv 被移动 地址  //移动文件夹
 # rm [-r -f] {文件：{*name;name*;*name*}}//删除
-
+# which //查找命令地址
+# find 首地址 -name "文件名"   //搜索文件
+#
