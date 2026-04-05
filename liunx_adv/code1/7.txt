@@ -1,4 +1,4 @@
-/*
+��*
     @author: 
     @date: 2026/04/05
     @brief: ./fwrite7 fwrite7.cpp 7.txt
@@ -20,8 +20,8 @@ int main(int argc, char const *argv[])
         exit(-1);
     }
 
-    fp1 = fopen(argv[1], "r");
-    if (fp1 == nullptr)
+    fp1 = fopen(argv[1], "r";
+)    if (fp1 == nullptr)
     {
         std::cout << "文件1打开失败" << std::endl;
         exit(-1);
@@ -42,10 +42,4 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-
- << "文件2打开失败" << std::endl;
-        exit(-1);
-    }
-    while (fread(buffer,1,SIZE,fp1) > 0)
-    {
-        fwrite(bu
+/

@@ -1,0 +1,18 @@
+常用函数速查表
+函数	功能	原型
+fopen	打开文件	FILE *fopen(const char *path, const char *mode)
+fclose	关闭文件	int fclose(FILE *stream)
+fgetc	读字符	    int fgetc(FILE *stream)
+fputc	写字符	    int fputc(int c, FILE *stream)
+fgets	读字符串	char *fgets(char *s, int n, FILE *stream)
+fputs	写字符串	int fputs(const char *s, FILE *stream)
+fread	读数据块	size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream)
+fwrite	写数据块	size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream)
+fseek	移动指针	int fseek(FILE *stream, long offset, int whence)
+ftell	获取位置	long ftell(FILE *stream)
+rewind	重置指针	void rewind(FILE *stream)
+fprintf	格式化写	int fprintf(FILE *stream, const char *format, ...)
+fscanf	格式化读	int fscanf(FILE *stream, const char *format, ...)
+feof	检查末尾	int feof(FILE *stream)
+ferror	检查错误	int ferror(FILE *stream)
+perror	打印错误	void perror(const char *s)

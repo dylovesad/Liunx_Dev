@@ -1,0 +1,23 @@
+/*
+    @author: 
+    @date: 2026/04/05
+    @brief: ./fwrite7 fwrite7.cpp 7.txt
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <vector>
+#include <string>
+
+#define SIZE 256
+int main(int argc, char const *argv[])
+{
+    FILE *fp1, *fp2;
+    char buffer [SIZE]={0};
+    if (argc != 3)
+    {
+        std::cout << "运行程序请确定好参数(./app filename)" << std::endl;
+        exit(-1);
+    }
+
+    fp1 = fopen(argv[1], "r"

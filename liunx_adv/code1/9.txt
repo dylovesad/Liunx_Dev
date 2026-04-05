@@ -1,0 +1,22 @@
+);
+    if (fp1 == nullptr)
+    {
+        std::cout << "文件1打开失败" << std::endl;
+        exit(-1);
+    }
+    fp2 = fopen(argv[2], "w+");
+    if (fp2 == nullptr)
+    {
+        std::cout << "文件2打开失败" << std::endl;
+        exit(-1);
+    }
+    while (fread(buffer,1,SIZE,fp1) > 0)
+    {
+        fwrite(buffer,1,SIZE,fp2);
+    }
+    fclose(fp1);
+    fclose(fp2);
+    std::cout << "文件复制成功" << std::endl;
+    return 0;
+}
+
