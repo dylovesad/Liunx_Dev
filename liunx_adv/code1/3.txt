@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <vector>
+#include <errno.h>
+
+int main(int argc, char const *argv[])
+{
+    FILE *fp1, *fp2;
+    if (argc != 3)
+    {
+        std::cout << "运行程序请确定好参数(./app filename)" << std::endl;
+        exit(-1);
+    }
+
+    fp1 = fopen(argv[1], "r");
+    if (fp1 == nullptr)
+    {
+        std::cout << "文件1打开失败" << std::endl;
+        exit(-1);
+    }
+    fp2 = fopen(argv[2], "w+");
+    if (fp2 == nullptr)
+    {
+        std::cout << "文件2打开失败" << std::endl;
+        exit(-1);
+    }
+    char ch;
+    while ((ch = fgetc(fp1)) != EOF)
+    {
+        fputc(ch, fp2);
+    }
+    fclose(fp1);
+    fclose(fp2);
+    std::cout << "文件复制成功" << std::endl;
+    return 0;
+}
