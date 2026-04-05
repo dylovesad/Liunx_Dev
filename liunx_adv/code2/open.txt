@@ -1,0 +1,18 @@
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open && /home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/opencd
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
+ cd /home/liunx/linux_adv/code2/ && g++ open.cpp -o open&&/home/liunx/linux_adv/code2/open
